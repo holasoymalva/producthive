@@ -1,0 +1,174 @@
+# Entorno virtual
+venv/
+env/
+ENV/
+.env
+.venv
+virtualenv/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.python-version
+
+# Archivos de configuración y secretos
+.env
+.env.local
+.env.*.local
+*.env
+config.json
+secrets.yaml
+credentials.json
+.secret_key
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Logs y archivos temporales
+logs/
+*.log
+log.txt
+*.tmp
+temp/
+.temp/
+tmp/
+.tmp/
+.DS_Store
+
+# Archivos de caché
+.cache/
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# IDEs y editores
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+*.iml
+.project
+.classpath
+.settings/
+*.sublime-workspace
+*.sublime-project
+
+# Notebooks
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+*.ipynb
+!notebooks/*.ipynb
+
+# Archivos de datos
+data/*.csv
+data/*.xlsx
+data/*.xls
+data/*.db
+data/*.sqlite
+data/*.json
+!data/sample_data.csv
+
+# Archivos generados por el sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+*.bak
+*.tmp
+*.swp
+*~.nib
+*.swp
+*.swo
+*.swn
+
+# Archivos de documentación generados
+docs/_build/
+site/
+
+# Archivos de dependencias
+node_modules/
+jspm_packages/
+bower_components/
+
+# Archivos de compilación y distribución
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+*.app
+
+# Archivos de test y cobertura
+.coverage
+.tox/
+.nox/
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Archivos de MLOps
+models/
+*.pkl
+*.h5
+*.model
+*.joblib
+saved_models/
+runs/
+mlruns/
+
+# Archivos específicos del proyecto
+# Agrega aquí archivos específicos de tu proyecto que no deban ser versionados
+output/
+reports/
+results/
+generated_files/
+
+# Excepciones
+# Agrega aquí las excepciones a las reglas anteriores
+!requirements.txt
+!setup.py
+!README.md
+!LICENSE
+!.gitignore
+!data/README.md
+!tests/README.md
+!docs/README.md
